@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.imgCard {
+    width: 100%;
+    height: 76%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardImg {  
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    /* border: 2px solid black; */
+    
+}
+:root::-webkit-scrollbar {
+    width: 10px;
+    margin-left: 10px;
+  }
+  
+  /* Track */
+  :root::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+    /* display: none   ; */
+  }
+   
+  /* Handle */
+  :root::-webkit-scrollbar-thumb {
+    background: rgb(208, 208, 208); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  :root::-webkit-scrollbar-thumb:hover {
+    background: #c1c1c1; 
+  }
+
+  /* Container */
+.container::-webkit-scrollbar {
+    width: 10px;
+    margin-left: 10px;
+  }
+  
+  /* Track */
+  .container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+    /* display: none   ; */
+  }
+   
+  /* Handle */
+  .container::-webkit-scrollbar-thumb {
+    background: rgb(208, 208, 208); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .container::-webkit-scrollbar-thumb:hover {
+    background: #c1c1c1; 
+  }
+
+ 

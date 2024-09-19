@@ -1,0 +1,79 @@
+/* Navbar Base Styling */
+.navbar {
+    background-color: #343a40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar .nav-item {
+    margin: 0 15px;
+}
+
+.navbar .nav-link {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar .nav-link:hover {
+    background-color: #495057;
+    border-radius: 5px;
+}
+
+#btn-filter {
+    margin-right: 15px;
+}
+/* Media Queries for Mobile Devices (max-width: 600px) */
+@media (max-width: 600px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .nav-item {
+        margin: 10px 0;
+    }
+
+    .btn-filter {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+    /* Media Queries for Tablets (601px to 768px) */
+@media (min-width: 601px) and (max-width: 768px) {
+    #btn-filter {
+        display: none;
+    }
+
+    .navbar ul {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .navbar .nav-item {
+        margin: 8px 5px;
+    }
+
+    .btn-filter {
+        margin-bottom: 10px;
+    }
+}
+/* Media Queries for Larger Screens (min-width: 769px) */
+@media (min-width: 769px) {
+    .navbar ul {
+        flex-direction: row;
+    }
+
+    .navbar .nav-item {
+        margin: 0 20px;
+    }
+}
